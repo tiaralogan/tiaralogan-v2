@@ -22,16 +22,14 @@ const Experience: React.FC = () => {
   const jobs: Job[] = [
     {
       id: 1,
-      title: 'Software Developement Engineer',
-      company: 'Amazon.com LLC',
-      location: 'Seattle, Washington',
-      dates: 'July 2021 - March 2023',
-      imageUrl: './Amazon.png',
+      title: 'Frontend Developer',
+      company: 'Avanade',
+      location: 'New York, NY',
+      dates: 'Jun 2021 - Feb 2023',
+      imageUrl: './avanade.png',
       description: [
-        'Design and implement new features for Amazon’s central marketplace and filtering service for personalized recommendations on retail pages.',
-        'Handle operations on-call duties to improve service maintainability and provide 99.9% availability during regular rotations and peak events.',
-        'Collaborate with internal teams to build frameworks and a command-line interface (CLI) to improve the developer experience.',
-        'Conduct code reviews and write automated tests to maintain code quality and ensure software reliability.'
+        'Worked with a Research & Development team at a large chemical manufacturer to assist in the build of a global “Safety Workflow System”. Built a dashboard that will surface all information needed in a way that is easy to consume. Utilized HTML, CSS, TypeScript, and Aurelia framework in Visual Studio while working closely with UX/UI team',
+        'I developed presentations for stakeholders and supported Project Management Office (PMO) initiatives by taking meticulous notes during daily meetings. Additionally, I played a key role in implementing agile methodology to facilitate the migration of business data in the insurance industry',
       ],
     },
   ];

@@ -9,6 +9,7 @@ import style from '../../styles/components/sections/Education.module.css';
 type EducationItem = {
   id: number;
   degree: string;
+  minor: string;
   institution: string;
   location: string;
   dates: string;
@@ -21,13 +22,14 @@ const Education: React.FC = () => {
     {
       id: 1,
       degree: 'Bachelor of Science in Computer Science',
+      minor: 'Animation',
       institution: 'Syracuse University',
       location: 'Syracuse, NY',
-      dates: '2017 - 2021',
+      dates: 'Aug 2017 - May 2021',
       imageUrl: 'Syracuse.png',
       coursework: [ 
         'Data Structures & Algorithms',
-        'Database Management Systems',
+        'Mobile Application Programming',
       ],
     },
   ];
@@ -46,6 +48,7 @@ const Education: React.FC = () => {
               />
               <div>
                 <h3 className={style.degree}>{item.degree}</h3>
+                <h4 className={style.minor}>Minor: {item.minor}</h4>
                 <h4 className={style.institution}>{item.institution}</h4>
                 <p className={style.location}>{item.location}</p>
                 <p className={style.dates}>{item.dates}</p>

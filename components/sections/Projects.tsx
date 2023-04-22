@@ -15,32 +15,30 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Java Planner',
-      description: 'A schedule management app from my introductory programming class. Designed to help students organize classes and appointments.',
-      technologies: ['Java', 'I/O'],
-      imageUrl: './Java.webp',
-      liveLink: 'https://replit.com/@jgavrilo/javaPlanner?v=1',
-      repoLink: 'https://github.com/jgavrilo/javaPlanner',
+      title: 'Stock Market Tracker',
+      description: 'The stock tracker project you\'ve created is a great example of how to build a simple but useful web application using Angular and a third-party API. It provides a useful tool for tracking stocks and learning more about how to build web applications using Angular.',
+      technologies: ['Angular', 'Javascript'],
+      imageUrl: './angular.png',
+      liveLink: 'https://angular-ivy-dan1zk.stackblitz.io',
+      repoLink: 'https://github.com/tiaralogan/Stock-Tracker',
     },    
     {
       id: 2,
-      title: 'Amazon Price Tracker',
-      description: 'This Amazon Price Tracker webscraps Amazon in real time and outs a JSON file that gives you the best deal based on your search. Planning to revisit.',
-      technologies: ['Python', 'Selenium'],
-      imageUrl: 'https://via.placeholder.com/300x200',
-      liveLink: 'https://github.com/jgavrilo/Amazon-Price-Tracker',
-      repoLink: 'https://github.com/jgavrilo/Amazon-Price-Tracker',
+      title: 'Maternity App',
+      description: 'The Maternity App is a useful tool for expectant mothers to track their pregnancy progress, access relevant resources, and connect with healthcare providers. It showcases how modern web technologies can be used to provide personalized and convenient services to users.',
+      technologies: ['Swift', 'Firebase'],
+      imageUrl: './swift.png',
+      repoLink: 'https://github.com/tiaralogan/Maternity-App',
     },
     {
       id: 3,
-      title: 'Stock Market Analysis',
-      description: 'Final Project for CIS 400 - Principle of Social Media and Data Mining. Planning to revisit.',
-      technologies: ['Python', 'Twitter API', 'MongoDB'],
-      imageUrl: 'https://via.placeholder.com/300x200',
-      liveLink: 'https://project-c.example.com',
-      repoLink: 'https://github.com/yourusername/project-c',
+      title: 'Candy Land',
+      description: 'The Candyland project is a fun and nostalgic web application that provides a digital version of a classic board game. It showcases how web technologies can be used to recreate traditional games and activities in a new and interactive way.' ,
+      technologies: ['Java'],
+      imageUrl: './Java.webp',
+      repoLink: 'https://github.com/tiaralogan/candyland',
     },
-    {
+    /*{
       id: 4,
       title: 'Campus Rush',
       description: 'Final Project for CIS 400 - Principle of Social Media and Data Mining. Planning to revisit.',
@@ -48,12 +46,12 @@ const Projects: React.FC = () => {
       imageUrl: 'https://via.placeholder.com/300x200',
       liveLink: 'https://project-c.example.com',
       repoLink: 'https://github.com/yourusername/project-c',
-    },
-    ];
+    },*/
+  ];
 
   return (
     <section className={style.projects}>
-      <h2>Projects</h2>
+      <h2>Featured Projects</h2>
       <div className={style.projectsContainer}>
         {projects.map((project) => (
           <div key={project.id} className={style.project}>
@@ -73,7 +71,7 @@ const Projects: React.FC = () => {
               )}
               {project.repoLink && (
                 <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className={style.projectLink}>
-                  GitHub Repository
+                  Repository
                 </a>
               )}
             </div>

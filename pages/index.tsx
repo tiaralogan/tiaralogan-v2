@@ -15,13 +15,14 @@ import Skills from '@component/components/sections/Skills';
 import Experience from '@component/components/sections/Experience';
 import Education from '@component/components/sections/Education';
 import Projects from '@component/components/sections/Projects';
+import Games from '@component/components/sections/Games';
 
 const HomePage: React.FC = () => {
 
-  const imageUrl = "https://picsum.photos/id/237/300/200";
+    {/*const imageUrl = "https://picsum.photos/id/237/300/200";
   const title = "Example Image";
   const description = "This is an example image. And some text to show me it goes to the next line. This is an example image. And some text to show me it goes to the next line. This is an example image. And some text to show me it goes to the next line.";
-  const link = "https://github.com/jgavrilo";
+  const link = "https://github.com/jgavrilo";*/}
   
   return (
     <Layout>
@@ -40,6 +41,9 @@ const HomePage: React.FC = () => {
       <Section id="projects">
         <Projects />
       </Section>
+        <Section id="games">
+            <Games />
+        </Section>
     </Layout>
   );
 };

@@ -80,7 +80,7 @@ const Navbar: React.FC<NavbarProps> = ({ items }) => {
 
   return (
     <header className={navbarClasses} ref={headerRef}>
-        <span className={styles.brand}>Jeremy Gavrilov</span>
+        <span className={styles.brand}>Tiara Logan</span>
         {isMobileView && <Hamburger onClick={toggleDropdown} showDropdown={showDropdown} />}
         {showDropdown && (
         <div className={styles.dropdownContainer}>

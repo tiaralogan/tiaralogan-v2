@@ -61,8 +61,8 @@
   margin-bottom: 0.25rem;
 }
 
-/* Institution name styles */
-.institution {
+/* Institution and minor name styles */
+.institution, .minor {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.25rem;

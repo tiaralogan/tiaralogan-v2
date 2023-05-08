@@ -59,6 +59,10 @@
   animation: fadeInFromLeft 0.5s 3s forwards;
 }
 
+.item:nth-child(7) {
+  animation: fadeInFromLeft 0.5s 3s forwards;
+}
+
 /* Define the fadeInFromLeft animation keyframes */
 @keyframes fadeInFromLeft {
   to {

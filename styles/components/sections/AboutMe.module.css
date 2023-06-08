@@ -1,7 +1,6 @@
 /* Main section styles */
 .aboutMe {
   padding: 1.5rem;
-  font-family: Arial, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   font-family: var(--font-mono);

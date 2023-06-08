@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
     {
       id: 1,
       title: 'Stock Market Tracker',
-      description: 'The stock tracker project you\'ve created is a great example of how to build a simple but useful web application using Angular and a third-party API. It provides a useful tool for tracking stocks and learning more about how to build web applications using Angular.',
+      description: 'The stock tracker project presented here serves as a remarkable example of building a simple yet useful web application using Angular and a third-party API. This project exemplifies the successful creation of a tool for tracking stocks while providing valuable insights into the process of developing web applications with Angular. It showcases a strong understanding of the technology and demonstrates proficiency in leveraging external APIs to enhance functionality.',
       technologies: ['Angular', 'Javascript'],
       imageUrl: './angular.png',
       liveLink: 'https://angular-ivy-dan1zk.stackblitz.io',
@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
     {
       id: 2,
       title: 'Maternity App',
-      description: 'The Maternity App is a useful tool for expectant mothers to track their pregnancy progress, access relevant resources, and connect with healthcare providers. It showcases how modern web technologies can be used to provide personalized and convenient services to users.',
+      description: 'The Maternity App exemplifies the utilization of modern web technologies to offer expectant mothers a valuable tool for tracking their pregnancy progress, accessing pertinent resources, and connecting with healthcare providers. This application serves as a prime example of how technology can be leveraged to deliver personalized and convenient services tailored to the unique needs of users.',
       technologies: ['Swift', 'Firebase'],
       imageUrl: './swift.png',
       repoLink: 'https://github.com/tiaralogan/Maternity-App',
@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
     {
       id: 3,
       title: 'Candy Land',
-      description: 'The Candyland project is a fun and nostalgic web application that provides a digital version of a classic board game. It showcases how web technologies can be used to recreate traditional games and activities in a new and interactive way.' ,
+      description: 'The Candyland project represents an engaging and nostalgic web application that offers a digital adaptation of the beloved classic board game. It effectively demonstrates how web technologies can be harnessed to recreate traditional games and activities, providing users with a fresh and interactive experience. By showcasing the potential of web-based platforms, this project highlights the innovative possibilities of merging traditional and digital entertainment.' ,
       technologies: ['Java'],
       imageUrl: './Java.webp',
       repoLink: 'https://github.com/tiaralogan/candyland',

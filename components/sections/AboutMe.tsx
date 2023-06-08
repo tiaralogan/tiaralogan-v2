@@ -16,7 +16,9 @@ const AboutMe: React.FC = () => {
       </div>
       <div className={style.aboutMeText}>
         <p>
-           I'm a creative and passionate frontend developer with a strong background in computer science and animation. 
+            As a frontend developer with a strong background in computer science, I bring a creative and passionate approach
+            to my work. My experience in software development has solidified my skills and allows me to approach frontend development
+            projects with a unique perspective.
             I received my Bachelor's degree in Computer Science from Syracuse University, where I also completed a minor 
             in animation. With experience in both game design and frontend development, I have developed a keen eye for 
             aesthetics and a solid technical foundation that allows me to create engaging and visually appealing user 

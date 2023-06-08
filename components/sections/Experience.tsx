@@ -28,8 +28,8 @@ const Experience: React.FC = () => {
       dates: 'Jun 2021 - Feb 2023',
       imageUrl: './avanade.png',
       description: [
-        'Worked with a Research & Development team at a large chemical manufacturer to assist in the build of a global “Safety Workflow System”. Built a dashboard that will surface all information needed in a way that is easy to consume. Utilized HTML, CSS, TypeScript, and Aurelia framework in Visual Studio while working closely with UX/UI team',
-        'I developed presentations for stakeholders and supported Project Management Office (PMO) initiatives by taking meticulous notes during daily meetings. Additionally, I played a key role in implementing agile methodology to facilitate the migration of business data in the insurance industry',
+        'Utilized HTML, CSS, TypeScript, and the Aurelia framework in Visual Studio while working closely with a UX/UI team, I assisted in the build of a global "Safety Workflow System" for a large chemical manufacturer\'s Research & Development team. Built a dashboard that surfaced all the necessary information in an easily consumable way.',
+        'Played a key role in implementing agile methodology to facilitate the migration of business data in the insurance industry. Additionally, developed presentations for stakeholders and provided meticulous project documentation in support of Project Management Office (PMO) initiatives.',
       ],
     },
   ];
